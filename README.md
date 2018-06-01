@@ -64,11 +64,11 @@ The current set of commands supported by the awsmobile CLI are
 
 | Command              | Description |
 | --- | --- |
-| awsmobile start | Starts an awsmobilejs project using one of our starter templates, sets up the backend mobile hub project in the cloud and pulls the aws-exports.js file |
-| awsmobile init | Initializes the current project with awsmobilejs features, sets up the backend mobile hub project in the cloud and pulls the aws-exports.js file |
+| awsmobile start | Starts an awsmobilejs project using one of our starter templates, sets up the backend mobile hub project in the cloud and pulls the aws-exports.js or awsconfiguration.json file |
+| awsmobile init | Initializes the current project with awsmobilejs features, sets up the backend mobile hub project in the cloud and pulls the aws-exports.js or awsconfiguration.json file |
 | awsmobile configure [aws] | Configures the aws access credentials and aws region for awsmobile-cli |
 | awsmobile configure project | Configures the attributes of your project for awsmobile-cli |
-| awsmobile pull | Retrieves the latest details of the backend Mobile Hub project, such as the access information file aws-exports.js |
+| awsmobile pull | Retrieves the latest details of the backend Mobile Hub project, such as the access information file aws-exports.js or awsconfiguration.json |
 | awsmobile push | Updates the backend Mobile Hub project with the latest local developments |
 | awsmobile publish | Executes awsmobile push, then builds and publishes client-side application to S3 and Cloud Front |
 | awsmobile run | Executes awsmobile push, then executes the project's start command to test run the client-side application |

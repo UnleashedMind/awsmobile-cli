@@ -32,6 +32,7 @@ describe('git manager functions', () => {
         'aws-info.json' + os.EOL +
         'project-info.json' + os.EOL +
         'aws-exports.js' + os.EOL +
+        'awsconfiguration.json' + os.EOL + 
         'awsmobilejs/.awsmobile/backend-build' + os.EOL +
         'awsmobilejs/\\#current-backend-info' + os.EOL +
         '~awsmobilejs-*/'
